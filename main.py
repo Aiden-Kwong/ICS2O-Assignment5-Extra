@@ -7,7 +7,7 @@ print("Thanks for using this circle calculator.\n")
 print("-----------------------------------------")
 
 
-while loop: True:
+while loop is True:
 
     print("Please enter the diameter of the circle (radius x 2)\n")
 
