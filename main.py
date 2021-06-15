@@ -7,7 +7,7 @@ print("Thanks for using this circle calculator.\n")
 print("-----------------------------------------")
 
 
-while loop == True:
+while loop: True:
 
     print("Please enter the diameter of the circle (radius x 2)\n")
 
@@ -21,7 +21,7 @@ while loop == True:
                 while correct == "N":
                     diameter = int(input("Enter the diameter: "))
                     break
-            else: 
+            else:
                 break
         else:
             print("Invalid input.")
@@ -50,7 +50,7 @@ while loop == True:
                     break
             else:
                 print("Invalid input")
-      
-      else:
+
+    else:
         print("Please enter a positive number.")
         print("\n")
